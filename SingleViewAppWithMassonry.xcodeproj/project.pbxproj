@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62DEBFE8E0C942E3C8F21855 /* libPods-SingleViewAppWithMassonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0DEC6BFD2E7A9CD14B63DD /* libPods-SingleViewAppWithMassonry.a */; };
 		932BC6C020BCF3B1008E1DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6BF20BCF3B1008E1DEB /* AppDelegate.m */; };
 		932BC6C320BCF3B1008E1DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6C220BCF3B1008E1DEB /* ViewController.m */; };
 		932BC6C620BCF3B1008E1DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932BC6C420BCF3B1008E1DEB /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		932BC6CE20BCF3B2008E1DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6CD20BCF3B2008E1DEB /* main.m */; };
 		932BC6D820BCF3B2008E1DEB /* SingleViewAppWithMassonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6D720BCF3B2008E1DEB /* SingleViewAppWithMassonryTests.m */; };
 		932BC6E320BCF3B2008E1DEB /* SingleViewAppWithMassonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6E220BCF3B2008E1DEB /* SingleViewAppWithMassonryUITests.m */; };
+		932BC6F220BCF4B0008E1DEB /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6F120BCF4B0008E1DEB /* MyViewController.m */; };
+		932BC6F520BCF5A7008E1DEB /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC6F420BCF5A7008E1DEB /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E0DEC6BFD2E7A9CD14B63DD /* libPods-SingleViewAppWithMassonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleViewAppWithMassonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6CB3E990D86C8EE74D67DD /* Pods-SingleViewAppWithMassonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewAppWithMassonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewAppWithMassonry/Pods-SingleViewAppWithMassonry.release.xcconfig"; sourceTree = "<group>"; };
 		932BC6BB20BCF3B1008E1DEB /* SingleViewAppWithMassonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewAppWithMassonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932BC6BE20BCF3B1008E1DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		932BC6BF20BCF3B1008E1DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		932BC6DE20BCF3B2008E1DEB /* SingleViewAppWithMassonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewAppWithMassonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		932BC6E220BCF3B2008E1DEB /* SingleViewAppWithMassonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleViewAppWithMassonryUITests.m; sourceTree = "<group>"; };
 		932BC6E420BCF3B2008E1DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932BC6F020BCF4B0008E1DEB /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		932BC6F120BCF4B0008E1DEB /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		932BC6F320BCF5A7008E1DEB /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		932BC6F420BCF5A7008E1DEB /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		A9D05961999806F2818C7690 /* Pods-SingleViewAppWithMassonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewAppWithMassonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewAppWithMassonry/Pods-SingleViewAppWithMassonry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DEBFE8E0C942E3C8F21855 /* libPods-SingleViewAppWithMassonry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71306D1EDCBB01D2E8FDE5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0DEC6BFD2E7A9CD14B63DD /* libPods-SingleViewAppWithMassonry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		932BC6B220BCF3B1008E1DEB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				932BC6D620BCF3B2008E1DEB /* SingleViewAppWithMassonryTests */,
 				932BC6E120BCF3B2008E1DEB /* SingleViewAppWithMassonryUITests */,
 				932BC6BC20BCF3B1008E1DEB /* Products */,
+				E4AF341E4FBF1CD3B5EB46A5 /* Pods */,
+				71306D1EDCBB01D2E8FDE5CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +126,10 @@
 				932BC6BF20BCF3B1008E1DEB /* AppDelegate.m */,
 				932BC6C120BCF3B1008E1DEB /* ViewController.h */,
 				932BC6C220BCF3B1008E1DEB /* ViewController.m */,
+				932BC6F020BCF4B0008E1DEB /* MyViewController.h */,
+				932BC6F120BCF4B0008E1DEB /* MyViewController.m */,
+				932BC6F320BCF5A7008E1DEB /* MyTableViewCell.h */,
+				932BC6F420BCF5A7008E1DEB /* MyTableViewCell.m */,
 				932BC6C420BCF3B1008E1DEB /* Main.storyboard */,
 				932BC6C720BCF3B2008E1DEB /* Assets.xcassets */,
 				932BC6C920BCF3B2008E1DEB /* LaunchScreen.storyboard */,
@@ -132,6 +157,15 @@
 			path = SingleViewAppWithMassonryUITests;
 			sourceTree = "<group>";
 		};
+		E4AF341E4FBF1CD3B5EB46A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9D05961999806F2818C7690 /* Pods-SingleViewAppWithMassonry.debug.xcconfig */,
+				7F6CB3E990D86C8EE74D67DD /* Pods-SingleViewAppWithMassonry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932BC6E720BCF3B2008E1DEB /* Build configuration list for PBXNativeTarget "SingleViewAppWithMassonry" */;
 			buildPhases = (
+				FB1507055558D90A36835C6E /* [CP] Check Pods Manifest.lock */,
 				932BC6B720BCF3B1008E1DEB /* Sources */,
 				932BC6B820BCF3B1008E1DEB /* Frameworks */,
 				932BC6B920BCF3B1008E1DEB /* Resources */,
+				9647FDD604895DA72BE1D154 /* [CP] Embed Pods Frameworks */,
+				072B43A0864D2076D6E9CA4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +294,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		072B43A0864D2076D6E9CA4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewAppWithMassonry/Pods-SingleViewAppWithMassonry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9647FDD604895DA72BE1D154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewAppWithMassonry/Pods-SingleViewAppWithMassonry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB1507055558D90A36835C6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingleViewAppWithMassonry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		932BC6B720BCF3B1008E1DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +352,9 @@
 			files = (
 				932BC6C320BCF3B1008E1DEB /* ViewController.m in Sources */,
 				932BC6CE20BCF3B2008E1DEB /* main.m in Sources */,
+				932BC6F220BCF4B0008E1DEB /* MyViewController.m in Sources */,
 				932BC6C020BCF3B1008E1DEB /* AppDelegate.m in Sources */,
+				932BC6F520BCF5A7008E1DEB /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,34 +521,40 @@
 		};
 		932BC6E820BCF3B2008E1DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D05961999806F2818C7690 /* Pods-SingleViewAppWithMassonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A7667NZ3Z2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FQ5TL9S8G9;
 				INFOPLIST_FILE = SingleViewAppWithMassonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.SingleViewAppWithMassonry;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = main_develop;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		932BC6E920BCF3B2008E1DEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6CB3E990D86C8EE74D67DD /* Pods-SingleViewAppWithMassonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A7667NZ3Z2;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FQ5TL9S8G9;
 				INFOPLIST_FILE = SingleViewAppWithMassonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.SingleViewAppWithMassonry;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a02a83e5-bf02-4b16-bbde-00aa383bcddd";
+				PROVISIONING_PROFILE_SPECIFIER = distribution_main;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
